@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sipeed/mimiclaw/pkg/auth"
-	"github.com/sipeed/mimiclaw/pkg/config"
+	"github.com/mimiclaw/mimiclaw/pkg/auth"
+	"github.com/mimiclaw/mimiclaw/pkg/config"
 )
 
 const defaultAnthropicAPIBase = "https://api.anthropic.com/v1"

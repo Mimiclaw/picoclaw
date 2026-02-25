@@ -3,7 +3,7 @@ package agent
 import (
 	"context"
 
-	"github.com/sipeed/mimiclaw/pkg/providers"
+	"github.com/mimiclaw/mimiclaw/pkg/providers"
 )
 
 type mockProvider struct{}

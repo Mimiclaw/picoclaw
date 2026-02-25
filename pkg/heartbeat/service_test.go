@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sipeed/mimiclaw/pkg/tools"
+	"github.com/mimiclaw/mimiclaw/pkg/tools"
 )
 
 func TestExecuteHeartbeat_Async(t *testing.T) {

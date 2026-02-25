@@ -6,7 +6,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/sipeed/mimiclaw/pkg/providers"
+	"github.com/mimiclaw/mimiclaw/pkg/providers"
 )
 
 // --- mock types ---

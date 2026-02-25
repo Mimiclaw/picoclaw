@@ -47,7 +47,7 @@ For substantial new features, please open an issue first to discuss the design b
    ```
 3. Add the upstream remote:
    ```bash
-   git remote add upstream https://github.com/sipeed/mimiclaw.git
+   git remote add upstream https://github.com/mimiclaw/mimiclaw.git
    ```
 
 ---
@@ -268,15 +268,15 @@ Once your PR is submitted, you can reach out to the assigned reviewers listed in
 
 |Function| Reviewer|
 |---     |---      |
-|Provider|@yinwm   |
-|Channel |@yinwm   |
-|Agent   |@lxowalle|
-|Tools   |@lxowalle|
+|Provider|@mimiclaw   |
+|Channel |@mimiclaw   |
+|Agent   |@mimiclaw|
+|Tools   |@mimiclaw|
 |SKill   ||
 |MCP     ||
-|Optimization|@lxowalle|
+|Optimization|@mimiclaw|
 |Security||
-|AI CI   |@imguoguo|
+|AI CI   |@mimiclaw|
 |UX      ||
 |Document||
 

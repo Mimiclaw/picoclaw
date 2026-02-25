@@ -6,8 +6,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/sipeed/mimiclaw/pkg/bus"
-	"github.com/sipeed/mimiclaw/pkg/config"
+	"github.com/mimiclaw/mimiclaw/pkg/bus"
+	"github.com/mimiclaw/mimiclaw/pkg/config"
 )
 
 // FeishuChannel is a stub implementation for 32-bit architectures

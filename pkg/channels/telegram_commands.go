@@ -7,7 +7,7 @@ import (
 
 	"github.com/mymmrac/telego"
 
-	"github.com/sipeed/mimiclaw/pkg/config"
+	"github.com/mimiclaw/mimiclaw/pkg/config"
 )
 
 type TelegramCommander interface {

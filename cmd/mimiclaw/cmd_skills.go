@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sipeed/mimiclaw/pkg/config"
-	"github.com/sipeed/mimiclaw/pkg/skills"
-	"github.com/sipeed/mimiclaw/pkg/utils"
+	"github.com/mimiclaw/mimiclaw/pkg/config"
+	"github.com/mimiclaw/mimiclaw/pkg/skills"
+	"github.com/mimiclaw/mimiclaw/pkg/utils"
 )
 
 func skillsHelp() {
@@ -28,7 +28,7 @@ func skillsHelp() {
 	fmt.Println()
 	fmt.Println("Examples:")
 	fmt.Println("  mimiclaw skills list")
-	fmt.Println("  mimiclaw skills install sipeed/mimiclaw-skills/weather")
+	fmt.Println("  mimiclaw skills install mimiclaw/mimiclaw-skills/weather")
 	fmt.Println("  mimiclaw skills install-builtin")
 	fmt.Println("  mimiclaw skills list-builtin")
 	fmt.Println("  mimiclaw skills remove weather")

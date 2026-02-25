@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
     <br>
     <a href="https://mimiclaw.io"><img src="https://img.shields.io/badge/Website-mimiclaw.io-blue?style=flat&logo=google-chrome&logoColor=white" alt="Website"></a>
-    <a href="https://x.com/SipeedIO"><img src="https://img.shields.io/badge/X_(Twitter)-SipeedIO-black?style=flat&logo=x&logoColor=white" alt="Twitter"></a>
+    <a href="https://x.com/mimiclaw"><img src="https://img.shields.io/badge/X_(Twitter)-mimiclaw-black?style=flat&logo=x&logoColor=white" alt="Twitter"></a>
   </p>
 
 [中文](README.zh.md) | [日本語](README.ja.md) | [Português](README.pt-br.md) | **Tiếng Việt** | [Français](README.fr.md) | [English](README.md)
@@ -19,7 +19,7 @@
 
 ---
 
-🦐 **Mimiclaw** là trợ lý AI cá nhân siêu nhẹ, lấy cảm hứng từ [nanobot](https://github.com/HKUDS/nanobot), được viết lại hoàn toàn bằng **Go** thông qua quá trình "tự khởi tạo" (self-bootstrapping) — nơi chính AI Agent đã tự dẫn dắt toàn bộ quá trình chuyển đổi kiến trúc và tối ưu hóa mã nguồn.
+🦐 **Mimiclaw** là trợ lý AI cá nhân siêu nhẹ, lấy cảm hứng từ Mimiclaw, được viết lại hoàn toàn bằng **Go** thông qua quá trình "tự khởi tạo" (self-bootstrapping) — nơi chính AI Agent đã tự dẫn dắt toàn bộ quá trình chuyển đổi kiến trúc và tối ưu hóa mã nguồn.
 
 ⚡️ **Cực kỳ nhẹ:** Chạy trên phần cứng chỉ **$10** với RAM **<10MB**. Tiết kiệm 99% bộ nhớ so với OpenClaw và rẻ hơn 98% so với Mac mini!
 
@@ -42,7 +42,7 @@
 > **🚨 TUYÊN BỐ BẢO MẬT & KÊNH CHÍNH THỨC**
 >
 > * **KHÔNG CÓ CRYPTO:** Mimiclaw **KHÔNG** có bất kỳ token/coin chính thức nào. Mọi thông tin trên `pump.fun` hoặc các sàn giao dịch khác đều là **LỪA ĐẢO**.
-> * **DOMAIN CHÍNH THỨC:** Website chính thức **DUY NHẤT** là **[mimiclaw.io](https://mimiclaw.io)**, website công ty là **[sipeed.com](https://sipeed.com)**.
+> * **DOMAIN CHÍNH THỨC:** Website chính thức **DUY NHẤT** là **[mimiclaw.io](https://mimiclaw.io)**, website công ty là **[mimiclaw.io](https://mimiclaw.io)**.
 > * **Cảnh báo:** Nhiều tên miền `.ai/.org/.com/.net/...` đã bị bên thứ ba đăng ký, không phải của chúng tôi.
 > * **Cảnh báo:** Mimiclaw đang trong giai đoạn phát triển sớm và có thể còn các vấn đề bảo mật mạng chưa được giải quyết. Không nên triển khai lên môi trường production trước phiên bản v1.0.
 > * **Lưu ý:** Mimiclaw gần đây đã merge nhiều PR, dẫn đến bộ nhớ sử dụng có thể lớn hơn (10–20MB) ở các phiên bản mới nhất. Chúng tôi sẽ ưu tiên tối ưu tài nguyên khi bộ tính năng đã ổn định.
@@ -116,12 +116,12 @@ https://private-user-images.githubusercontent.com/83055338/547056448-e7b031ff-d6
 
 ### Cài đặt bằng binary biên dịch sẵn
 
-Tải file binary cho nền tảng của bạn từ [trang Release](https://github.com/sipeed/mimiclaw/releases).
+Tải file binary cho nền tảng của bạn từ [trang Release](https://github.com/mimiclaw/mimiclaw/releases).
 
 ### Cài đặt từ mã nguồn (có tính năng mới nhất, khuyên dùng cho phát triển)
 
 ```bash
-git clone https://github.com/sipeed/mimiclaw.git
+git clone https://github.com/mimiclaw/mimiclaw.git
 
 cd mimiclaw
 make deps
@@ -142,7 +142,7 @@ Bạn cũng có thể chạy Mimiclaw bằng Docker Compose mà không cần cà
 
 ```bash
 # 1. Clone repo
-git clone https://github.com/sipeed/mimiclaw.git
+git clone https://github.com/mimiclaw/mimiclaw.git
 cd mimiclaw
 
 # 2. Thiết lập API Key

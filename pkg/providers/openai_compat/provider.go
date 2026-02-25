@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sipeed/mimiclaw/pkg/providers/protocoltypes"
+	"github.com/mimiclaw/mimiclaw/pkg/providers/protocoltypes"
 )
 
 type (

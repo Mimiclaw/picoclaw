@@ -47,7 +47,7 @@ Mimiclaw 本身在很大程度上是借助 AI 辅助开发的——我们拥抱�
    ```
 3. 添加上游远程仓库：
    ```bash
-   git remote add upstream https://github.com/sipeed/mimiclaw.git
+   git remote add upstream https://github.com/mimiclaw/mimiclaw.git
    ```
 
 ---
@@ -267,15 +267,15 @@ Release 分支的保护级别高于 `main`，在任何情况下均不允许直�
 
 |Function| Reviewer|
 |---     |---      |
-|Provider|@yinwm   |
-|Channel |@yinwm   |
-|Agent   |@lxowalle|
-|Tools   |@lxowalle|
+|Provider|@mimiclaw   |
+|Channel |@mimiclaw   |
+|Agent   |@mimiclaw|
+|Tools   |@mimiclaw|
 |SKill   ||
 |MCP     ||
-|Optimization|@lxowalle|
+|Optimization|@mimiclaw|
 |Security||
-|AI CI   |@imguoguo|
+|AI CI   |@mimiclaw|
 |UX      ||
 |Document||
 

@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sipeed/mimiclaw/pkg/bus"
-	"github.com/sipeed/mimiclaw/pkg/providers"
+	"github.com/mimiclaw/mimiclaw/pkg/bus"
+	"github.com/mimiclaw/mimiclaw/pkg/providers"
 )
 
 type SubagentTask struct {

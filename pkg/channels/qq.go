@@ -13,9 +13,9 @@ import (
 	"github.com/tencent-connect/botgo/token"
 	"golang.org/x/oauth2"
 
-	"github.com/sipeed/mimiclaw/pkg/bus"
-	"github.com/sipeed/mimiclaw/pkg/config"
-	"github.com/sipeed/mimiclaw/pkg/logger"
+	"github.com/mimiclaw/mimiclaw/pkg/bus"
+	"github.com/mimiclaw/mimiclaw/pkg/config"
+	"github.com/mimiclaw/mimiclaw/pkg/logger"
 )
 
 type QQChannel struct {

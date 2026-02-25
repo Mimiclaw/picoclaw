@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/sipeed/mimiclaw/pkg/skills"
+	"github.com/mimiclaw/mimiclaw/pkg/skills"
 )
 
 func TestInstallSkillToolName(t *testing.T) {

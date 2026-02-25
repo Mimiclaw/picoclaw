@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/sipeed/mimiclaw/pkg/bus"
-	"github.com/sipeed/mimiclaw/pkg/config"
+	"github.com/mimiclaw/mimiclaw/pkg/bus"
+	"github.com/mimiclaw/mimiclaw/pkg/config"
 )
 
 // generateTestAESKey generates a valid test AES key

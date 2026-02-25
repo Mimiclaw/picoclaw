@@ -8,7 +8,7 @@ package providers
 import (
 	"testing"
 
-	"github.com/sipeed/mimiclaw/pkg/config"
+	"github.com/mimiclaw/mimiclaw/pkg/config"
 )
 
 func TestExtractProtocol(t *testing.T) {

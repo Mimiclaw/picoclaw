@@ -3,8 +3,8 @@ package channels
 import (
 	"testing"
 
-	"github.com/sipeed/mimiclaw/pkg/bus"
-	"github.com/sipeed/mimiclaw/pkg/config"
+	"github.com/mimiclaw/mimiclaw/pkg/bus"
+	"github.com/mimiclaw/mimiclaw/pkg/config"
 )
 
 func TestParseSlackChatID(t *testing.T) {

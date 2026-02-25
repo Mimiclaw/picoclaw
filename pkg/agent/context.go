@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sipeed/mimiclaw/pkg/logger"
-	"github.com/sipeed/mimiclaw/pkg/providers"
-	"github.com/sipeed/mimiclaw/pkg/skills"
-	"github.com/sipeed/mimiclaw/pkg/tools"
+	"github.com/mimiclaw/mimiclaw/pkg/logger"
+	"github.com/mimiclaw/mimiclaw/pkg/providers"
+	"github.com/mimiclaw/mimiclaw/pkg/skills"
+	"github.com/mimiclaw/mimiclaw/pkg/tools"
 )
 
 type ContextBuilder struct {

@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sipeed/mimiclaw/pkg/bus"
-	"github.com/sipeed/mimiclaw/pkg/config"
-	"github.com/sipeed/mimiclaw/pkg/cron"
-	"github.com/sipeed/mimiclaw/pkg/utils"
+	"github.com/mimiclaw/mimiclaw/pkg/bus"
+	"github.com/mimiclaw/mimiclaw/pkg/config"
+	"github.com/mimiclaw/mimiclaw/pkg/cron"
+	"github.com/mimiclaw/mimiclaw/pkg/utils"
 )
 
 // JobExecutor is the interface for executing cron jobs through the agent

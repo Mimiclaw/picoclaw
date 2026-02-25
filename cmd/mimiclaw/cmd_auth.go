@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sipeed/mimiclaw/pkg/auth"
-	"github.com/sipeed/mimiclaw/pkg/config"
-	"github.com/sipeed/mimiclaw/pkg/providers"
+	"github.com/mimiclaw/mimiclaw/pkg/auth"
+	"github.com/mimiclaw/mimiclaw/pkg/config"
+	"github.com/mimiclaw/mimiclaw/pkg/providers"
 )
 
 const supportedProvidersMsg = "Supported providers: openai, anthropic, google-antigravity"

@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/sipeed/mimiclaw/pkg/cron"
+	"github.com/mimiclaw/mimiclaw/pkg/cron"
 )
 
 func cronCmd() {

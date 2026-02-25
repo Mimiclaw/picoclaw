@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sipeed/mimiclaw/pkg/logger"
-	"github.com/sipeed/mimiclaw/pkg/skills"
-	"github.com/sipeed/mimiclaw/pkg/utils"
+	"github.com/mimiclaw/mimiclaw/pkg/logger"
+	"github.com/mimiclaw/mimiclaw/pkg/skills"
+	"github.com/mimiclaw/mimiclaw/pkg/utils"
 )
 
 // InstallSkillTool allows the LLM agent to install skills from registries.

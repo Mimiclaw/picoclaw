@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
     <br>
     <a href="https://mimiclaw.io"><img src="https://img.shields.io/badge/Website-mimiclaw.io-blue?style=flat&logo=google-chrome&logoColor=white" alt="Website"></a>
-    <a href="https://x.com/SipeedIO"><img src="https://img.shields.io/badge/X_(Twitter)-SipeedIO-black?style=flat&logo=x&logoColor=white" alt="Twitter"></a>
+    <a href="https://x.com/mimiclaw"><img src="https://img.shields.io/badge/X_(Twitter)-mimiclaw-black?style=flat&logo=x&logoColor=white" alt="Twitter"></a>
   </p>
 
  [中文](README.zh.md) | [日本語](README.ja.md) | **Português** | [Tiếng Việt](README.vi.md) | [Français](README.fr.md) | [English](README.md)
@@ -19,7 +19,7 @@
 
 ---
 
-🦐 **Mimiclaw** é um assistente pessoal de IA ultra-leve inspirado no [nanobot](https://github.com/HKUDS/nanobot), reescrito do zero em **Go** por meio de um processo de "auto-inicialização" (self-bootstrapping) — onde o próprio agente de IA conduziu toda a migração de arquitetura e otimização de código.
+🦐 **Mimiclaw** é um assistente pessoal de IA ultra-leve reescrito do zero em **Go** por meio de um processo de "auto-inicialização" (self-bootstrapping) — onde o próprio agente de IA conduziu toda a migração de arquitetura e otimização de código.
 
 ⚡️ **Extremamente leve:** Roda em hardware de apenas **$10** com **<10MB** de RAM. Isso é 99% menos memória que o OpenClaw e 98% mais barato que um Mac mini!
 
@@ -42,7 +42,7 @@
 > **🚨 DECLARAÇÃO DE SEGURANÇA & CANAIS OFICIAIS**
 >
 > * **SEM CRIPTOMOEDAS:** O Mimiclaw **NÃO** possui nenhum token/moeda oficial. Todas as alegações no `pump.fun` ou outras plataformas de negociação são **GOLPES**.
-> * **DOMÍNIO OFICIAL:** O **ÚNICO** site oficial é o **[mimiclaw.io](https://mimiclaw.io)**, e o site da empresa é o **[sipeed.com](https://sipeed.com)**.
+> * **DOMÍNIO OFICIAL:** O **ÚNICO** site oficial é o **[mimiclaw.io](https://mimiclaw.io)**, e o site da empresa é o **[mimiclaw.io](https://mimiclaw.io)**.
 > * **Aviso:** Muitos domínios `.ai/.org/.com/.net/...` foram registrados por terceiros, não são nossos.
 > * **Aviso:** O Mimiclaw está em fase inicial de desenvolvimento e pode ter problemas de segurança de rede não resolvidos. Não implante em ambientes de produção antes da versão v1.0.
 > * **Nota:** O Mimiclaw recentemente fez merge de muitos PRs, o que pode resultar em maior consumo de memória (10-20MB) nas versões mais recentes. Planejamos priorizar a otimização de recursos assim que o conjunto de funcionalidades estiver estável.
@@ -110,7 +110,7 @@ Dê uma segunda vida ao seu celular de dez anos atrás! Transforme-o em um assis
 
 ```bash
 # Nota: Substitua v0.1.1 pela versao mais recente da pagina de Releases
-wget https://github.com/sipeed/mimiclaw/releases/download/v0.1.1/mimiclaw-linux-arm64
+wget https://github.com/mimiclaw/mimiclaw/releases/download/v0.1.1/mimiclaw-linux-arm64
 chmod +x mimiclaw-linux-arm64
 pkg install proot
 termux-chroot ./mimiclaw-linux-arm64 onboard
@@ -136,12 +136,12 @@ https://private-user-images.githubusercontent.com/83055338/547056448-e7b031ff-d6
 
 ### Instalar com binário pré-compilado
 
-Baixe o binário para sua plataforma na página de [releases](https://github.com/sipeed/mimiclaw/releases).
+Baixe o binário para sua plataforma na página de [releases](https://github.com/mimiclaw/mimiclaw/releases).
 
 ### Instalar a partir do código-fonte (funcionalidades mais recentes, recomendado para desenvolvimento)
 
 ```bash
-git clone https://github.com/sipeed/mimiclaw.git
+git clone https://github.com/mimiclaw/mimiclaw.git
 
 cd mimiclaw
 make deps
@@ -162,7 +162,7 @@ Você tambêm pode rodar o Mimiclaw usando Docker Compose sem instalar nada loca
 
 ```bash
 # 1. Clone este repositorio
-git clone https://github.com/sipeed/mimiclaw.git
+git clone https://github.com/mimiclaw/mimiclaw.git
 cd mimiclaw
 
 # 2. Configure suas API keys

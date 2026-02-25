@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/sipeed/mimiclaw/pkg/auth"
+	"github.com/mimiclaw/mimiclaw/pkg/auth"
 )
 
 func statusCmd() {

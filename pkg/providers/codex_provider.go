@@ -11,8 +11,8 @@ import (
 	"github.com/openai/openai-go/v3/option"
 	"github.com/openai/openai-go/v3/responses"
 
-	"github.com/sipeed/mimiclaw/pkg/auth"
-	"github.com/sipeed/mimiclaw/pkg/logger"
+	"github.com/mimiclaw/mimiclaw/pkg/auth"
+	"github.com/mimiclaw/mimiclaw/pkg/logger"
 )
 
 const (

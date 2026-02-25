@@ -5,12 +5,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/sipeed/mimiclaw/pkg/bus"
-	"github.com/sipeed/mimiclaw/pkg/constants"
-	"github.com/sipeed/mimiclaw/pkg/devices/events"
-	"github.com/sipeed/mimiclaw/pkg/devices/sources"
-	"github.com/sipeed/mimiclaw/pkg/logger"
-	"github.com/sipeed/mimiclaw/pkg/state"
+	"github.com/mimiclaw/mimiclaw/pkg/bus"
+	"github.com/mimiclaw/mimiclaw/pkg/constants"
+	"github.com/mimiclaw/mimiclaw/pkg/devices/events"
+	"github.com/mimiclaw/mimiclaw/pkg/devices/sources"
+	"github.com/mimiclaw/mimiclaw/pkg/logger"
+	"github.com/mimiclaw/mimiclaw/pkg/state"
 )
 
 type Service struct {

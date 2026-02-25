@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
     <br>
     <a href="https://mimiclaw.io"><img src="https://img.shields.io/badge/Website-mimiclaw.io-blue?style=flat&logo=google-chrome&logoColor=white" alt="Website"></a>
-    <a href="https://x.com/SipeedIO"><img src="https://img.shields.io/badge/X_(Twitter)-SipeedIO-black?style=flat&logo=x&logoColor=white" alt="Twitter"></a>
+    <a href="https://x.com/mimiclaw"><img src="https://img.shields.io/badge/X_(Twitter)-mimiclaw-black?style=flat&logo=x&logoColor=white" alt="Twitter"></a>
   </p>
 
 **中文** | [日本語](README.ja.md) | [Português](README.pt-br.md) | [Tiếng Việt](README.vi.md) | [Français](README.fr.md) | [English](README.md)
@@ -20,7 +20,7 @@
 
 ---
 
-🦐 **Mimiclaw** 是一个受 [nanobot](https://github.com/HKUDS/nanobot) 启发的超轻量级个人 AI 助手。它采用 **Go 语言** 从零重构，经历了一个“自举”过程——即由 AI Agent 自身驱动了整个架构迁移和代码优化。
+🦐 **Mimiclaw** 是一个超轻量级个人 AI 助手。它采用 **Go 语言** 从零重构，经历了一个“自举”过程——即由 AI Agent 自身驱动了整个架构迁移和代码优化。
 
 ⚡️ **极致轻量**：可在 **10 美元** 的硬件上运行，内存占用 **<10MB**。这意味着比 OpenClaw 节省 99% 的内存，比 Mac mini 便宜 98%！
 
@@ -45,7 +45,7 @@
 > **🚨 SECURITY & OFFICIAL CHANNELS / 安全声明**
 >
 > - **无加密货币 (NO CRYPTO):** Mimiclaw **没有** 发行任何官方代币、Token 或虚拟货币。所有在 `pump.fun` 或其他交易平台上的相关声称均为 **诈骗**。
-> - **官方域名:** 唯一的官方网站是 **[mimiclaw.io](https://mimiclaw.io)**，公司官网是 **[sipeed.com](https://sipeed.com)**。
+> - **官方域名:** 唯一的官方网站是 **[mimiclaw.io](https://mimiclaw.io)**，公司官网是 **[mimiclaw.io](https://mimiclaw.io)**。
 > - **警惕:** 许多 `.ai/.org/.com/.net/...` 后缀的域名被第三方抢注，请勿轻信。
 > - **注意:** mimiclaw正在初期的快速功能开发阶段，可能有尚未修复的网络安全问题，在1.0正式版发布前，请不要将其部署到生产环境中
 > - **注意:** mimiclaw最近合并了大量PRs，近期版本可能内存占用较大(10~20MB)，我们将在功能较为收敛后进行资源占用优化.
@@ -111,7 +111,7 @@ mimiclaw 可以将你10年前的老旧手机废物利用，变身成为你的AI�
 
 ```bash
 # 注意: 下面的v0.1.1 可以换为你实际看到的最新版本
-wget https://github.com/sipeed/mimiclaw/releases/download/v0.1.1/mimiclaw-linux-arm64
+wget https://github.com/mimiclaw/mimiclaw/releases/download/v0.1.1/mimiclaw-linux-arm64
 chmod +x mimiclaw-linux-arm64
 pkg install proot
 termux-chroot ./mimiclaw-linux-arm64 onboard
@@ -136,12 +136,12 @@ Mimiclaw 几乎可以部署在任何 Linux 设备上！
 
 ### 使用预编译二进制文件安装
 
-从 [Release 页面](https://github.com/sipeed/mimiclaw/releases) 下载适用于您平台的固件。
+从 [Release 页面](https://github.com/mimiclaw/mimiclaw/releases) 下载适用于您平台的固件。
 
 ### 从源码安装（获取最新特性，开发推荐）
 
 ```bash
-git clone https://github.com/sipeed/mimiclaw.git
+git clone https://github.com/mimiclaw/mimiclaw.git
 
 cd mimiclaw
 make deps
@@ -163,7 +163,7 @@ make install
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/sipeed/mimiclaw.git
+git clone https://github.com/mimiclaw/mimiclaw.git
 cd mimiclaw
 
 # 2. 设置 API Key

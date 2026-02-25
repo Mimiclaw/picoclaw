@@ -14,10 +14,10 @@ import (
 
 	"github.com/chzyer/readline"
 
-	"github.com/sipeed/mimiclaw/pkg/agent"
-	"github.com/sipeed/mimiclaw/pkg/bus"
-	"github.com/sipeed/mimiclaw/pkg/logger"
-	"github.com/sipeed/mimiclaw/pkg/providers"
+	"github.com/mimiclaw/mimiclaw/pkg/agent"
+	"github.com/mimiclaw/mimiclaw/pkg/bus"
+	"github.com/mimiclaw/mimiclaw/pkg/logger"
+	"github.com/mimiclaw/mimiclaw/pkg/providers"
 )
 
 func agentCmd() {

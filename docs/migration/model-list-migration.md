@@ -215,5 +215,5 @@ api_key or api_base is required for HTTP-based protocol "xxx"
 
 ## Need Help?
 
-- [GitHub Issues](https://github.com/sipeed/mimiclaw/issues)
-- [Discussion #122](https://github.com/sipeed/mimiclaw/discussions/122): Original proposal
+- [GitHub Issues](https://github.com/mimiclaw/mimiclaw/issues)
+- [Discussion #122](https://github.com/mimiclaw/mimiclaw/discussions/122): Original proposal

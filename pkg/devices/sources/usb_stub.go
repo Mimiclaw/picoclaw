@@ -5,7 +5,7 @@ package sources
 import (
 	"context"
 
-	"github.com/sipeed/mimiclaw/pkg/devices/events"
+	"github.com/mimiclaw/mimiclaw/pkg/devices/events"
 )
 
 type USBMonitor struct{}

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sipeed/mimiclaw/pkg/skills"
+	"github.com/mimiclaw/mimiclaw/pkg/skills"
 )
 
 func TestFindSkillsToolName(t *testing.T) {

@@ -86,7 +86,7 @@ func (si *SkillInstaller) Uninstall(skillName string) error {
 }
 
 func (si *SkillInstaller) ListAvailableSkills(ctx context.Context) ([]AvailableSkill, error) {
-	url := "https://raw.githubusercontent.com/sipeed/mimiclaw-skills/main/skills.json"
+	url := "https://raw.githubusercontent.com/mimiclaw/mimiclaw-skills/main/skills.json"
 
 	client := &http.Client{Timeout: 15 * time.Second}
 	req, err := http.NewRequestWithContext(ctx, "GET", url, nil)

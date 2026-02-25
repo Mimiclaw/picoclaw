@@ -10,7 +10,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/sipeed/mimiclaw/pkg/utils"
+	"github.com/mimiclaw/mimiclaw/pkg/utils"
 )
 
 const (

@@ -4,7 +4,7 @@
 Mimiclaw 🦞
 
 ## Description
-Ultra-lightweight personal AI assistant written in Go, inspired by nanobot.
+Ultra-lightweight personal AI assistant written in Go.
 
 ## Version
 0.1.0
@@ -44,11 +44,11 @@ Ultra-lightweight personal AI assistant written in Go, inspired by nanobot.
 MIT License - Free and open source
 
 ## Repository
-https://github.com/sipeed/mimiclaw
+https://github.com/mimiclaw/mimiclaw
 
 ## Contact
-Issues: https://github.com/sipeed/mimiclaw/issues
-Discussions: https://github.com/sipeed/mimiclaw/discussions
+Issues: https://github.com/mimiclaw/mimiclaw/issues
+Discussions: https://github.com/mimiclaw/mimiclaw/discussions
 
 ---
 

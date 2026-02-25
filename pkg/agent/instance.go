@@ -5,11 +5,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/sipeed/mimiclaw/pkg/config"
-	"github.com/sipeed/mimiclaw/pkg/providers"
-	"github.com/sipeed/mimiclaw/pkg/routing"
-	"github.com/sipeed/mimiclaw/pkg/session"
-	"github.com/sipeed/mimiclaw/pkg/tools"
+	"github.com/mimiclaw/mimiclaw/pkg/config"
+	"github.com/mimiclaw/mimiclaw/pkg/providers"
+	"github.com/mimiclaw/mimiclaw/pkg/routing"
+	"github.com/mimiclaw/mimiclaw/pkg/session"
+	"github.com/mimiclaw/mimiclaw/pkg/tools"
 )
 
 // AgentInstance represents a fully configured agent with its own workspace,

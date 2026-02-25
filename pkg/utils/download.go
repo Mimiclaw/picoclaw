@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/sipeed/mimiclaw/pkg/logger"
+	"github.com/mimiclaw/mimiclaw/pkg/logger"
 )
 
 // DownloadToFile streams an HTTP response body to a temporary file in small

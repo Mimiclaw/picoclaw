@@ -19,7 +19,7 @@
 
 ---
 
-🦐 Mimiclaw は [nanobot](https://github.com/HKUDS/nanobot) にインスパイアされた超軽量パーソナル AI アシスタントです。Go でゼロからリファクタリングされ、AI エージェント自身がアーキテクチャの移行とコード最適化を推進するセルフブートストラッピングプロセスで構築されました。
+🦐 Mimiclaw は 超軽量パーソナル AI アシスタントです。Go でゼロからリファクタリングされ、AI エージェント自身がアーキテクチャの移行とコード最適化を推進するセルフブートストラッピングプロセスで構築されました。
 
 ⚡️ $10 のハードウェアで 10MB 未満の RAM で動作：OpenClaw より 99% 少ないメモリ、Mac mini より 98% 安い！
 
@@ -97,12 +97,12 @@ https://private-user-images.githubusercontent.com/83055338/547056448-e7b031ff-d6
 
 ### コンパイル済みバイナリでインストール
 
-[リリースページ](https://github.com/sipeed/mimiclaw/releases) からお使いのプラットフォーム用のファームウェアをダウンロードしてください。
+[リリースページ](https://github.com/mimiclaw/mimiclaw/releases) からお使いのプラットフォーム用のファームウェアをダウンロードしてください。
 
 ### ソースからインストール（最新機能、開発向け推奨）
 
 ```bash
-git clone https://github.com/sipeed/mimiclaw.git
+git clone https://github.com/mimiclaw/mimiclaw.git
 
 cd mimiclaw
 make deps
@@ -123,7 +123,7 @@ Docker Compose を使えば、ローカルにインストールせずに Mimicla
 
 ```bash
 # 1. リポジトリをクローン
-git clone https://github.com/sipeed/mimiclaw.git
+git clone https://github.com/mimiclaw/mimiclaw.git
 cd mimiclaw
 
 # 2. API キーを設定

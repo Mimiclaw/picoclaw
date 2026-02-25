@@ -1,5 +1,4 @@
 // Mimiclaw - Ultra-lightweight personal AI agent
-// Inspired by and based on nanobot: https://github.com/HKUDS/nanobot
 // License: MIT
 //
 // Copyright (c) 2026 Mimiclaw contributors
@@ -11,9 +10,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/sipeed/mimiclaw/pkg/logger"
-	"github.com/sipeed/mimiclaw/pkg/providers"
-	"github.com/sipeed/mimiclaw/pkg/utils"
+	"github.com/mimiclaw/mimiclaw/pkg/logger"
+	"github.com/mimiclaw/mimiclaw/pkg/providers"
+	"github.com/mimiclaw/mimiclaw/pkg/utils"
 )
 
 // ToolLoopConfig configures the tool execution loop.

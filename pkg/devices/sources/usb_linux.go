@@ -10,8 +10,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/sipeed/mimiclaw/pkg/devices/events"
-	"github.com/sipeed/mimiclaw/pkg/logger"
+	"github.com/mimiclaw/mimiclaw/pkg/devices/events"
+	"github.com/mimiclaw/mimiclaw/pkg/logger"
 )
 
 var usbClassToCapability = map[string]string{

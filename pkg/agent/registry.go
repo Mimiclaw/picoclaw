@@ -3,10 +3,10 @@ package agent
 import (
 	"sync"
 
-	"github.com/sipeed/mimiclaw/pkg/config"
-	"github.com/sipeed/mimiclaw/pkg/logger"
-	"github.com/sipeed/mimiclaw/pkg/providers"
-	"github.com/sipeed/mimiclaw/pkg/routing"
+	"github.com/mimiclaw/mimiclaw/pkg/config"
+	"github.com/mimiclaw/mimiclaw/pkg/logger"
+	"github.com/mimiclaw/mimiclaw/pkg/providers"
+	"github.com/mimiclaw/mimiclaw/pkg/routing"
 )
 
 // AgentRegistry manages multiple agent instances and routes messages to them.

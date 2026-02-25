@@ -1,4 +1,4 @@
-module github.com/sipeed/mimiclaw
+module github.com/mimiclaw/mimiclaw
 
 go 1.25.7
 

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/sipeed/mimiclaw/pkg/migrate"
+	"github.com/mimiclaw/mimiclaw/pkg/migrate"
 )
 
 func migrateCmd() {

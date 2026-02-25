@@ -1,5 +1,4 @@
 // Mimiclaw - Ultra-lightweight personal AI agent
-// Inspired by and based on nanobot: https://github.com/HKUDS/nanobot
 // License: MIT
 //
 // Copyright (c) 2026 Mimiclaw contributors
@@ -16,17 +15,17 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/sipeed/mimiclaw/pkg/bus"
-	"github.com/sipeed/mimiclaw/pkg/channels"
-	"github.com/sipeed/mimiclaw/pkg/config"
-	"github.com/sipeed/mimiclaw/pkg/constants"
-	"github.com/sipeed/mimiclaw/pkg/logger"
-	"github.com/sipeed/mimiclaw/pkg/providers"
-	"github.com/sipeed/mimiclaw/pkg/routing"
-	"github.com/sipeed/mimiclaw/pkg/skills"
-	"github.com/sipeed/mimiclaw/pkg/state"
-	"github.com/sipeed/mimiclaw/pkg/tools"
-	"github.com/sipeed/mimiclaw/pkg/utils"
+	"github.com/mimiclaw/mimiclaw/pkg/bus"
+	"github.com/mimiclaw/mimiclaw/pkg/channels"
+	"github.com/mimiclaw/mimiclaw/pkg/config"
+	"github.com/mimiclaw/mimiclaw/pkg/constants"
+	"github.com/mimiclaw/mimiclaw/pkg/logger"
+	"github.com/mimiclaw/mimiclaw/pkg/providers"
+	"github.com/mimiclaw/mimiclaw/pkg/routing"
+	"github.com/mimiclaw/mimiclaw/pkg/skills"
+	"github.com/mimiclaw/mimiclaw/pkg/state"
+	"github.com/mimiclaw/mimiclaw/pkg/tools"
+	"github.com/mimiclaw/mimiclaw/pkg/utils"
 )
 
 type AgentLoop struct {
