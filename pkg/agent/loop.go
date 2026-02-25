@@ -1,8 +1,8 @@
-// PicoClaw - Ultra-lightweight personal AI agent
+// Mimiclaw - Ultra-lightweight personal AI agent
 // Inspired by and based on nanobot: https://github.com/HKUDS/nanobot
 // License: MIT
 //
-// Copyright (c) 2026 PicoClaw contributors
+// Copyright (c) 2026 Mimiclaw contributors
 
 package agent
 
@@ -16,17 +16,17 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/sipeed/picoclaw/pkg/bus"
-	"github.com/sipeed/picoclaw/pkg/channels"
-	"github.com/sipeed/picoclaw/pkg/config"
-	"github.com/sipeed/picoclaw/pkg/constants"
-	"github.com/sipeed/picoclaw/pkg/logger"
-	"github.com/sipeed/picoclaw/pkg/providers"
-	"github.com/sipeed/picoclaw/pkg/routing"
-	"github.com/sipeed/picoclaw/pkg/skills"
-	"github.com/sipeed/picoclaw/pkg/state"
-	"github.com/sipeed/picoclaw/pkg/tools"
-	"github.com/sipeed/picoclaw/pkg/utils"
+	"github.com/sipeed/mimiclaw/pkg/bus"
+	"github.com/sipeed/mimiclaw/pkg/channels"
+	"github.com/sipeed/mimiclaw/pkg/config"
+	"github.com/sipeed/mimiclaw/pkg/constants"
+	"github.com/sipeed/mimiclaw/pkg/logger"
+	"github.com/sipeed/mimiclaw/pkg/providers"
+	"github.com/sipeed/mimiclaw/pkg/routing"
+	"github.com/sipeed/mimiclaw/pkg/skills"
+	"github.com/sipeed/mimiclaw/pkg/state"
+	"github.com/sipeed/mimiclaw/pkg/tools"
+	"github.com/sipeed/mimiclaw/pkg/utils"
 )
 
 type AgentLoop struct {

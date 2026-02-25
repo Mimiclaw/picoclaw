@@ -1,34 +1,34 @@
 services:
   # ─────────────────────────────────────────────
-  # PicoClaw Agent (one-shot query)
-  #   docker compose run --rm picoclaw-agent -m "Hello"
+  # Mimiclaw Agent (one-shot query)
+  #   docker compose run --rm mimiclaw-agent -m "Hello"
   # ─────────────────────────────────────────────
-  picoclaw-agent:
+  mimiclaw-agent:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: picoclaw-agent
+    container_name: mimiclaw-agent
     profiles:
       - agent
     # Uncomment to access host network; leave commented unless needed.
     #extra_hosts:
     #  - "host.docker.internal:host-gateway"
     volumes:
-      - ./config/config.json:/home/picoclaw/.picoclaw/config.json:ro
-      - picoclaw-workspace:/home/picoclaw/.picoclaw/workspace
-    entrypoint: ["picoclaw", "agent"]
+      - ./config/config.json:/home/mimiclaw/.mimiclaw/config.json:ro
+      - mimiclaw-workspace:/home/mimiclaw/.mimiclaw/workspace
+    entrypoint: ["mimiclaw", "agent"]
     stdin_open: true
     tty: true
 
   # ─────────────────────────────────────────────
-  # PicoClaw Gateway (Long-running Bot)
-  #   docker compose up picoclaw-gateway
+  # Mimiclaw Gateway (Long-running Bot)
+  #   docker compose up mimiclaw-gateway
   # ─────────────────────────────────────────────
-  picoclaw-gateway:
+  mimiclaw-gateway:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: picoclaw-gateway
+    container_name: mimiclaw-gateway
     restart: unless-stopped
     profiles:
       - gateway
@@ -37,10 +37,10 @@ services:
     #  - "host.docker.internal:host-gateway"
     volumes:
       # Configuration file
-      - ./config/config.json:/home/picoclaw/.picoclaw/config.json:ro
+      - ./config/config.json:/home/mimiclaw/.mimiclaw/config.json:ro
       # Persistent workspace (sessions, memory, logs)
-      - picoclaw-workspace:/home/picoclaw/.picoclaw/workspace
+      - mimiclaw-workspace:/home/mimiclaw/.mimiclaw/workspace
     command: ["gateway"]
 
 volumes:
-  picoclaw-workspace:
+  mimiclaw-workspace:

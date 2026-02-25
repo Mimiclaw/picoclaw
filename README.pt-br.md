@@ -1,7 +1,7 @@
 <div align="center">
-<img src="assets/logo.jpg" alt="PicoClaw" width="512">
+<img src="assets/logo.jpg" alt="Mimiclaw" width="512">
 
-<h1>PicoClaw: Assistente de IA Ultra-Eficiente em Go</h1>
+<h1>Mimiclaw: Assistente de IA Ultra-Eficiente em Go</h1>
 
 <h3>Hardware de $10 · 10MB de RAM · Boot em 1s · 皮皮虾，我们走！</h3>
 
@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/Arch-x86__64%2C%20ARM64%2C%20RISC--V-blue" alt="Hardware">
     <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
     <br>
-    <a href="https://picoclaw.io"><img src="https://img.shields.io/badge/Website-picoclaw.io-blue?style=flat&logo=google-chrome&logoColor=white" alt="Website"></a>
+    <a href="https://mimiclaw.io"><img src="https://img.shields.io/badge/Website-mimiclaw.io-blue?style=flat&logo=google-chrome&logoColor=white" alt="Website"></a>
     <a href="https://x.com/SipeedIO"><img src="https://img.shields.io/badge/X_(Twitter)-SipeedIO-black?style=flat&logo=x&logoColor=white" alt="Twitter"></a>
   </p>
 
@@ -19,7 +19,7 @@
 
 ---
 
-🦐 **PicoClaw** é um assistente pessoal de IA ultra-leve inspirado no [nanobot](https://github.com/HKUDS/nanobot), reescrito do zero em **Go** por meio de um processo de "auto-inicialização" (self-bootstrapping) — onde o próprio agente de IA conduziu toda a migração de arquitetura e otimização de código.
+🦐 **Mimiclaw** é um assistente pessoal de IA ultra-leve inspirado no [nanobot](https://github.com/HKUDS/nanobot), reescrito do zero em **Go** por meio de um processo de "auto-inicialização" (self-bootstrapping) — onde o próprio agente de IA conduziu toda a migração de arquitetura e otimização de código.
 
 ⚡️ **Extremamente leve:** Roda em hardware de apenas **$10** com **<10MB** de RAM. Isso é 99% menos memória que o OpenClaw e 98% mais barato que um Mac mini!
 
@@ -27,7 +27,7 @@
 <tr align="center">
 <td align="center" valign="top">
 <p align="center">
-<img src="assets/picoclaw_mem.gif" width="360" height="240">
+<img src="assets/mimiclaw_mem.gif" width="360" height="240">
 </p>
 </td>
 <td align="center" valign="top">
@@ -41,22 +41,22 @@
 > [!CAUTION]
 > **🚨 DECLARAÇÃO DE SEGURANÇA & CANAIS OFICIAIS**
 >
-> * **SEM CRIPTOMOEDAS:** O PicoClaw **NÃO** possui nenhum token/moeda oficial. Todas as alegações no `pump.fun` ou outras plataformas de negociação são **GOLPES**.
-> * **DOMÍNIO OFICIAL:** O **ÚNICO** site oficial é o **[picoclaw.io](https://picoclaw.io)**, e o site da empresa é o **[sipeed.com](https://sipeed.com)**.
+> * **SEM CRIPTOMOEDAS:** O Mimiclaw **NÃO** possui nenhum token/moeda oficial. Todas as alegações no `pump.fun` ou outras plataformas de negociação são **GOLPES**.
+> * **DOMÍNIO OFICIAL:** O **ÚNICO** site oficial é o **[mimiclaw.io](https://mimiclaw.io)**, e o site da empresa é o **[sipeed.com](https://sipeed.com)**.
 > * **Aviso:** Muitos domínios `.ai/.org/.com/.net/...` foram registrados por terceiros, não são nossos.
-> * **Aviso:** O PicoClaw está em fase inicial de desenvolvimento e pode ter problemas de segurança de rede não resolvidos. Não implante em ambientes de produção antes da versão v1.0.
-> * **Nota:** O PicoClaw recentemente fez merge de muitos PRs, o que pode resultar em maior consumo de memória (10-20MB) nas versões mais recentes. Planejamos priorizar a otimização de recursos assim que o conjunto de funcionalidades estiver estável.
+> * **Aviso:** O Mimiclaw está em fase inicial de desenvolvimento e pode ter problemas de segurança de rede não resolvidos. Não implante em ambientes de produção antes da versão v1.0.
+> * **Nota:** O Mimiclaw recentemente fez merge de muitos PRs, o que pode resultar em maior consumo de memória (10-20MB) nas versões mais recentes. Planejamos priorizar a otimização de recursos assim que o conjunto de funcionalidades estiver estável.
 
 
 ## 📢 Novidades
 
-2026-02-16 🎉 PicoClaw atingiu 12K stars em uma semana! Obrigado a todos pelo apoio! O PicoClaw está crescendo mais rápido do que jamais imaginamos. Dado o alto volume de PRs, precisamos urgentemente de maintainers da comunidade. Nossos papéis de voluntários e roadmap foram publicados oficialmente [aqui](docs/ROADMAP.md) — estamos ansiosos para ter você a bordo!
+2026-02-16 🎉 Mimiclaw atingiu 12K stars em uma semana! Obrigado a todos pelo apoio! O Mimiclaw está crescendo mais rápido do que jamais imaginamos. Dado o alto volume de PRs, precisamos urgentemente de maintainers da comunidade. Nossos papéis de voluntários e roadmap foram publicados oficialmente [aqui](docs/ROADMAP.md) — estamos ansiosos para ter você a bordo!
 
-2026-02-13 🎉 PicoClaw atingiu 5000 stars em 4 dias! Obrigado à comunidade! Estamos finalizando o **Roadmap do Projeto** e configurando o **Grupo de Desenvolvedores** para acelerar o desenvolvimento do PicoClaw.
+2026-02-13 🎉 Mimiclaw atingiu 5000 stars em 4 dias! Obrigado à comunidade! Estamos finalizando o **Roadmap do Projeto** e configurando o **Grupo de Desenvolvedores** para acelerar o desenvolvimento do Mimiclaw.
 
 🚀 **Chamada para Ação:** Envie suas solicitações de funcionalidades nas GitHub Discussions. Revisaremos e priorizaremos na próxima reunião semanal.
 
-2026-02-09 🎉 PicoClaw lançado oficialmente! Construído em 1 dia para trazer Agentes de IA para hardware de $10 com <10MB de RAM. 🦐 PicoClaw, Partiu!
+2026-02-09 🎉 Mimiclaw lançado oficialmente! Construído em 1 dia para trazer Agentes de IA para hardware de $10 com <10MB de RAM. 🦐 Mimiclaw, Partiu!
 
 ## ✨ Funcionalidades
 
@@ -70,14 +70,14 @@
 
 🤖 **Auto-Construído por IA**: Implementação nativa em Go de forma autônoma — 95% do núcleo gerado pelo Agente com refinamento humano no loop.
 
-|                               | OpenClaw      | NanoBot                  | **PicoClaw**                              |
+|                               | OpenClaw      | NanoBot                  | **Mimiclaw**                              |
 | ----------------------------- | ------------- | ------------------------ | ----------------------------------------- |
 | **Linguagem**                 | TypeScript    | Python                   | **Go**                                    |
 | **RAM**                       | >1GB          | >100MB                   | **< 10MB**                                |
 | **Inicialização**</br>(CPU 0.8GHz) | >500s         | >30s                     | **<1s**                                   |
 | **Custo**                     | Mac Mini $599 | Maioria dos SBC Linux </br>~$50 | **Qualquer placa Linux**</br>**A partir de $10** |
 
-<img src="assets/compare.jpg" alt="PicoClaw" width="512">
+<img src="assets/compare.jpg" alt="Mimiclaw" width="512">
 
 ## 🦾 Demonstração
 
@@ -90,9 +90,9 @@
 <th><p align="center">🔎 Busca Web & Aprendizado</p></th>
 </tr>
 <tr>
-<td align="center"><p align="center"><img src="assets/picoclaw_code.gif" width="240" height="180"></p></td>
-<td align="center"><p align="center"><img src="assets/picoclaw_memory.gif" width="240" height="180"></p></td>
-<td align="center"><p align="center"><img src="assets/picoclaw_search.gif" width="240" height="180"></p></td>
+<td align="center"><p align="center"><img src="assets/mimiclaw_code.gif" width="240" height="180"></p></td>
+<td align="center"><p align="center"><img src="assets/mimiclaw_memory.gif" width="240" height="180"></p></td>
+<td align="center"><p align="center"><img src="assets/mimiclaw_search.gif" width="240" height="180"></p></td>
 </tr>
 <tr>
 <td align="center">Desenvolver • Implantar • Escalar</td>
@@ -103,26 +103,26 @@
 
 ### 📱 Rode em celulares Android antigos
 
-Dê uma segunda vida ao seu celular de dez anos atrás! Transforme-o em um assistente de IA inteligente com o PicoClaw. Início rápido:
+Dê uma segunda vida ao seu celular de dez anos atrás! Transforme-o em um assistente de IA inteligente com o Mimiclaw. Início rápido:
 
 1. **Instale o Termux** (Disponível no F-Droid ou Google Play).
 2. **Execute os comandos**
 
 ```bash
 # Nota: Substitua v0.1.1 pela versao mais recente da pagina de Releases
-wget https://github.com/sipeed/picoclaw/releases/download/v0.1.1/picoclaw-linux-arm64
-chmod +x picoclaw-linux-arm64
+wget https://github.com/sipeed/mimiclaw/releases/download/v0.1.1/mimiclaw-linux-arm64
+chmod +x mimiclaw-linux-arm64
 pkg install proot
-termux-chroot ./picoclaw-linux-arm64 onboard
+termux-chroot ./mimiclaw-linux-arm64 onboard
 ```
 
 Depois siga as instruções na seção "Início Rápido" para completar a configuração!
 
-<img src="assets/termux.jpg" alt="PicoClaw" width="512">
+<img src="assets/termux.jpg" alt="Mimiclaw" width="512">
 
 ### 🐜 Implantação Inovadora com Baixo Consumo
 
-O PicoClaw pode ser implantado em praticamente qualquer dispositivo Linux!
+O Mimiclaw pode ser implantado em praticamente qualquer dispositivo Linux!
 
 - $9.9 [LicheeRV-Nano](https://www.aliexpress.com/item/1005006519668532.html) versão E (Ethernet) ou W (WiFi6), para Assistente Doméstico Minimalista
 - $30~50 [NanoKVM](https://www.aliexpress.com/item/1005007369816019.html), ou $100 [NanoKVM-Pro](https://www.aliexpress.com/item/1005010048471263.html) para Manutenção Automatizada de Servidores
@@ -136,14 +136,14 @@ https://private-user-images.githubusercontent.com/83055338/547056448-e7b031ff-d6
 
 ### Instalar com binário pré-compilado
 
-Baixe o binário para sua plataforma na página de [releases](https://github.com/sipeed/picoclaw/releases).
+Baixe o binário para sua plataforma na página de [releases](https://github.com/sipeed/mimiclaw/releases).
 
 ### Instalar a partir do código-fonte (funcionalidades mais recentes, recomendado para desenvolvimento)
 
 ```bash
-git clone https://github.com/sipeed/picoclaw.git
+git clone https://github.com/sipeed/mimiclaw.git
 
-cd picoclaw
+cd mimiclaw
 make deps
 
 # Build, sem necessidade de instalar
@@ -158,12 +158,12 @@ make install
 
 ## 🐳 Docker Compose
 
-Você tambêm pode rodar o PicoClaw usando Docker Compose sem instalar nada localmente.
+Você tambêm pode rodar o Mimiclaw usando Docker Compose sem instalar nada localmente.
 
 ```bash
 # 1. Clone este repositorio
-git clone https://github.com/sipeed/picoclaw.git
-cd picoclaw
+git clone https://github.com/sipeed/mimiclaw.git
+cd mimiclaw
 
 # 2. Configure suas API keys
 cp config/config.example.json config/config.json
@@ -173,11 +173,11 @@ vim config/config.json      # Configure DISCORD_BOT_TOKEN, API keys, etc.
 docker compose --profile gateway up -d
 
 > [!TIP]
-> **Usuários Docker**: Por padrão, o Gateway ouve em `127.0.0.1`, o que não é acessível a partir do host. Se você precisar acessar os endpoints de integridade ou expor portas, defina `PICOCLAW_GATEWAY_HOST=0.0.0.0` em seu ambiente ou atualize o `config.json`.
+> **Usuários Docker**: Por padrão, o Gateway ouve em `127.0.0.1`, o que não é acessível a partir do host. Se você precisar acessar os endpoints de integridade ou expor portas, defina `MIMICLAW_GATEWAY_HOST=0.0.0.0` em seu ambiente ou atualize o `config.json`.
 
 
 # 4. Ver logs
-docker compose logs -f picoclaw-gateway
+docker compose logs -f mimiclaw-gateway
 
 # 5. Parar
 docker compose --profile gateway down
@@ -187,10 +187,10 @@ docker compose --profile gateway down
 
 ```bash
 # Fazer uma pergunta
-docker compose run --rm picoclaw-agent -m "Quanto e 2+2?"
+docker compose run --rm mimiclaw-agent -m "Quanto e 2+2?"
 
 # Modo interativo
-docker compose run --rm picoclaw-agent
+docker compose run --rm mimiclaw-agent
 ```
 
 ### Rebuild
@@ -203,17 +203,17 @@ docker compose --profile gateway up -d
 ### 🚀 Início Rápido
 
 > [!TIP]
-> Configure sua API key em `~/.picoclaw/config.json`.
+> Configure sua API key em `~/.mimiclaw/config.json`.
 > Obtenha API keys: [OpenRouter](https://openrouter.ai/keys) (LLM) · [Zhipu](https://open.bigmodel.cn/usercenter/proj-mgmt/apikeys) (LLM)
 > Busca web e **opcional** — obtenha a [Brave Search API](https://brave.com/search/api) gratuita (2000 consultas grátis/mês) ou use o fallback automático integrado.
 
 **1. Inicializar**
 
 ```bash
-picoclaw onboard
+mimiclaw onboard
 ```
 
-**2. Configurar** (`~/.picoclaw/config.json`)
+**2. Configurar** (`~/.mimiclaw/config.json`)
 
 ```json
 {
@@ -256,7 +256,7 @@ picoclaw onboard
 **4. Conversar**
 
 ```bash
-picoclaw agent -m "Quanto e 2+2?"
+mimiclaw agent -m "Quanto e 2+2?"
 ```
 
 Pronto! Você tem um assistente de IA funcionando em 2 minutos.
@@ -265,7 +265,7 @@ Pronto! Você tem um assistente de IA funcionando em 2 minutos.
 
 ## 💬 Integração com Apps de Chat
 
-Converse com seu PicoClaw via Telegram, Discord, DingTalk, LINE ou WeCom.
+Converse com seu Mimiclaw via Telegram, Discord, DingTalk, LINE ou WeCom.
 
 | Canal | Nível de Configuração |
 | --- | --- |
@@ -304,7 +304,7 @@ Converse com seu PicoClaw via Telegram, Discord, DingTalk, LINE ou WeCom.
 **3. Executar**
 
 ```bash
-picoclaw gateway
+mimiclaw gateway
 ```
 
 </details>
@@ -352,7 +352,7 @@ picoclaw gateway
 **6. Executar**
 
 ```bash
-picoclaw gateway
+mimiclaw gateway
 ```
 
 </details>
@@ -385,7 +385,7 @@ picoclaw gateway
 **3. Executar**
 
 ```bash
-picoclaw gateway
+mimiclaw gateway
 ```
 
 </details>
@@ -419,7 +419,7 @@ picoclaw gateway
 **3. Executar**
 
 ```bash
-picoclaw gateway
+mimiclaw gateway
 ```
 
 </details>
@@ -465,19 +465,19 @@ Em seguida, configure a Webhook URL no LINE Developers Console para `https://seu
 **4. Executar**
 
 ```bash
-picoclaw gateway
+mimiclaw gateway
 ```
 
 > Em chats de grupo, o bot responde apenas quando mencionado com @. As respostas citam a mensagem original.
 
-> **Docker Compose**: Adicione `ports: ["18791:18791"]` ao serviço `picoclaw-gateway` para expor a porta do webhook.
+> **Docker Compose**: Adicione `ports: ["18791:18791"]` ao serviço `mimiclaw-gateway` para expor a porta do webhook.
 
 </details>
 
 <details>
 <summary><b>WeCom (WeChat Work)</b></summary>
 
-O PicoClaw suporta dois tipos de integração WeCom:
+O Mimiclaw suporta dois tipos de integração WeCom:
 
 **Opção 1: WeCom Bot (Robô Inteligente)** - Configuração mais fácil, suporta chats em grupo
 **Opção 2: WeCom App (Aplicativo Personalizado)** - Mais recursos, mensagens proativas
@@ -548,7 +548,7 @@ Veja o [Guia de Configuração WeCom App](docs/wecom-app-configuration.md) para 
 **4. Executar**
 
 ```bash
-picoclaw gateway
+mimiclaw gateway
 ```
 
 > **Nota**: O WeCom App requer a abertura da porta 18792 para callbacks de webhook. Use um proxy reverso para HTTPS em produção.
@@ -557,20 +557,20 @@ picoclaw gateway
 
 ## <img src="assets/clawdchat-icon.png" width="24" height="24" alt="ClawdChat"> Junte-se a Rede Social de Agentes
 
-Conecte o PicoClaw a Rede Social de Agentes simplesmente enviando uma única mensagem via CLI ou qualquer App de Chat integrado.
+Conecte o Mimiclaw a Rede Social de Agentes simplesmente enviando uma única mensagem via CLI ou qualquer App de Chat integrado.
 
 **Leia `https://clawdchat.ai/skill.md` e siga as instruções para entrar no [ClawdChat.ai](https://clawdchat.ai)**
 
 ## ⚙️ Configuração Detalhada
 
-Arquivo de configuração: `~/.picoclaw/config.json`
+Arquivo de configuração: `~/.mimiclaw/config.json`
 
 ### Estrutura do Workspace
 
-O PicoClaw armazena dados no workspace configurado (padrão: `~/.picoclaw/workspace`):
+O Mimiclaw armazena dados no workspace configurado (padrão: `~/.mimiclaw/workspace`):
 
 ```
-~/.picoclaw/workspace/
+~/.mimiclaw/workspace/
 ├── sessions/          # Sessoes de conversa e historico
 ├── memory/            # Memoria de longo prazo (MEMORY.md)
 ├── state/             # Estado persistente (ultimo canal, etc.)
@@ -586,7 +586,7 @@ O PicoClaw armazena dados no workspace configurado (padrão: `~/.picoclaw/worksp
 
 ### 🔒 Sandbox de Segurança
 
-O PicoClaw roda em um ambiente sandbox por padrão. O agente so pode acessar arquivos e executar comandos dentro do workspace configurado.
+O Mimiclaw roda em um ambiente sandbox por padrão. O agente so pode acessar arquivos e executar comandos dentro do workspace configurado.
 
 #### Configuração Padrão
 
@@ -594,7 +594,7 @@ O PicoClaw roda em um ambiente sandbox por padrão. O agente so pode acessar arq
 {
   "agents": {
     "defaults": {
-      "workspace": "~/.picoclaw/workspace",
+      "workspace": "~/.mimiclaw/workspace",
       "restrict_to_workspace": true
     }
   }
@@ -603,7 +603,7 @@ O PicoClaw roda em um ambiente sandbox por padrão. O agente so pode acessar arq
 
 | Opção | Padrão | Descrição |
 |-------|--------|-----------|
-| `workspace` | `~/.picoclaw/workspace` | Diretório de trabalho do agente |
+| `workspace` | `~/.mimiclaw/workspace` | Diretório de trabalho do agente |
 | `restrict_to_workspace` | `true` | Restringir acesso de arquivos/comandos ao workspace |
 
 #### Ferramentas Protegidas
@@ -661,7 +661,7 @@ Se você precisa que o agente acesse caminhos fora do workspace:
 **Método 2: Variável de ambiente**
 
 ```bash
-export PICOCLAW_AGENTS_DEFAULTS_RESTRICT_TO_WORKSPACE=false
+export MIMICLAW_AGENTS_DEFAULTS_RESTRICT_TO_WORKSPACE=false
 ```
 
 > ⚠️ **Aviso**: Desabilitar esta restrição permite que o agente acesse qualquer caminho no seu sistema. Use com cuidado apenas em ambientes controlados.
@@ -680,7 +680,7 @@ Todos os caminhos compartilham a mesma restrição de workspace — nao há como
 
 ### Heartbeat (Tarefas Periódicas)
 
-O PicoClaw pode executar tarefas periódicas automaticamente. Crie um arquivo `HEARTBEAT.md` no seu workspace:
+O Mimiclaw pode executar tarefas periódicas automaticamente. Crie um arquivo `HEARTBEAT.md` no seu workspace:
 
 ```markdown
 # Tarefas Periodicas
@@ -752,8 +752,8 @@ O subagente tem acesso às ferramentas (message, web_search, etc.) e pode se com
 
 **Variáveis de ambiente:**
 
-* `PICOCLAW_HEARTBEAT_ENABLED=false` para desabilitar
-* `PICOCLAW_HEARTBEAT_INTERVAL=60` para alterar o intervalo
+* `MIMICLAW_HEARTBEAT_ENABLED=false` para desabilitar
+* `MIMICLAW_HEARTBEAT_INTERVAL=60` para alterar o intervalo
 
 ### Provedores
 
@@ -785,7 +785,7 @@ O subagente tem acesso às ferramentas (message, web_search, etc.) e pode se com
 {
   "agents": {
     "defaults": {
-      "workspace": "~/.picoclaw/workspace",
+      "workspace": "~/.mimiclaw/workspace",
       "model": "glm-4.7",
       "max_tokens": 8192,
       "temperature": 0.7,
@@ -804,7 +804,7 @@ O subagente tem acesso às ferramentas (message, web_search, etc.) e pode se com
 **3. Executar**
 
 ```bash
-picoclaw agent -m "Ola, como vai?"
+mimiclaw agent -m "Ola, como vai?"
 ```
 
 </details>
@@ -883,7 +883,7 @@ picoclaw agent -m "Ola, como vai?"
 
 ### Configuração de Modelo (model_list)
 
-> **Novidade!** PicoClaw agora usa uma abordagem de configuração **centrada no modelo**. Basta especificar o formato `fornecedor/modelo` (ex: `zhipu/glm-4.7`) para adicionar novos provedores—**nenhuma alteração de código necessária!**
+> **Novidade!** Mimiclaw agora usa uma abordagem de configuração **centrada no modelo**. Basta especificar o formato `fornecedor/modelo` (ex: `zhipu/glm-4.7`) para adicionar novos provedores—**nenhuma alteração de código necessária!**
 
 Este design também possibilita o **suporte multi-agent** com seleção flexível de provedores:
 
@@ -971,11 +971,11 @@ Este design também possibilita o **suporte multi-agent** com seleção flexíve
   "auth_method": "oauth"
 }
 ```
-> Execute `picoclaw auth login --provider anthropic` para configurar credenciais OAuth.
+> Execute `mimiclaw auth login --provider anthropic` para configurar credenciais OAuth.
 
 #### Balanceamento de Carga
 
-Configure vários endpoints para o mesmo nome de modelo—PicoClaw fará round-robin automaticamente entre eles:
+Configure vários endpoints para o mesmo nome de modelo—Mimiclaw fará round-robin automaticamente entre eles:
 
 ```json
 {
@@ -1042,23 +1042,23 @@ Para o guia de migração detalhado, consulte [docs/migration/model-list-migrati
 
 | Comando | Descrição |
 | --- | --- |
-| `picoclaw onboard` | Inicializar configuração & workspace |
-| `picoclaw agent -m "..."` | Conversar com o agente |
-| `picoclaw agent` | Modo de chat interativo |
-| `picoclaw gateway` | Iniciar o gateway (para bots de chat) |
-| `picoclaw status` | Mostrar status |
-| `picoclaw cron list` | Listar todas as tarefas agendadas |
-| `picoclaw cron add ...` | Adicionar uma tarefa agendada |
+| `mimiclaw onboard` | Inicializar configuração & workspace |
+| `mimiclaw agent -m "..."` | Conversar com o agente |
+| `mimiclaw agent` | Modo de chat interativo |
+| `mimiclaw gateway` | Iniciar o gateway (para bots de chat) |
+| `mimiclaw status` | Mostrar status |
+| `mimiclaw cron list` | Listar todas as tarefas agendadas |
+| `mimiclaw cron add ...` | Adicionar uma tarefa agendada |
 
 ### Tarefas Agendadas / Lembretes
 
-O PicoClaw suporta lembretes agendados e tarefas recorrentes por meio da ferramenta `cron`:
+O Mimiclaw suporta lembretes agendados e tarefas recorrentes por meio da ferramenta `cron`:
 
 * **Lembretes únicos**: "Remind me in 10 minutes" (Me lembre em 10 minutos) → dispara uma vez após 10min
 * **Tarefas recorrentes**: "Remind me every 2 hours" (Me lembre a cada 2 horas) → dispara a cada 2 horas
 * **Expressões Cron**: "Remind me at 9am daily" (Me lembre às 9h todos os dias) → usa expressão cron
 
-As tarefas são armazenadas em `~/.picoclaw/workspace/cron/` e processadas automaticamente.
+As tarefas são armazenadas em `~/.mimiclaw/workspace/cron/` e processadas automaticamente.
 
 ## 🤝 Contribuir & Roadmap
 
@@ -1072,20 +1072,20 @@ Grupos de usuários:
 
 Discord: <https://discord.gg/V4sAZ9XWpN>
 
-<img src="assets/wechat.png" alt="PicoClaw" width="512">
+<img src="assets/wechat.png" alt="Mimiclaw" width="512">
 
 ## 🐛 Solução de Problemas
 
 ### Busca web mostra "API 配置问题"
 
-Isso é normal se você ainda não configurou uma API key de busca. O PicoClaw fornecerá links úteis para busca manual.
+Isso é normal se você ainda não configurou uma API key de busca. O Mimiclaw fornecerá links úteis para busca manual.
 
 Para habilitar a busca web:
 
 1. **Opção 1 (Recomendado)**: Obtenha uma API key gratuita em [https://brave.com/search/api](https://brave.com/search/api) (2000 consultas grátis/mês) para os melhores resultados.
 2. **Opção 2 (Sem Cartão de Crédito)**: Se você não tem uma key, o sistema automaticamente usa o **DuckDuckGo** como fallback (sem necessidade de key).
 
-Adicione a key em `~/.picoclaw/config.json` se usar o Brave:
+Adicione a key em `~/.mimiclaw/config.json` se usar o Brave:
 
 ```json
 {
@@ -1111,7 +1111,7 @@ Alguns provedores (como Zhipu) possuem filtragem de conteúdo. Tente reformular 
 
 ### Bot do Telegram diz "Conflict: terminated by other getUpdates"
 
-Isso acontece quando outra instância do bot está em execução. Certifique-se de que apenas um `picoclaw gateway` esteja rodando por vez.
+Isso acontece quando outra instância do bot está em execução. Certifique-se de que apenas um `mimiclaw gateway` esteja rodando por vez.
 
 ---
 

@@ -1,16 +1,16 @@
-// PicoClaw - Ultra-lightweight personal AI agent
+// Mimiclaw - Ultra-lightweight personal AI agent
 // License: MIT
 //
-// Copyright (c) 2026 PicoClaw contributors
+// Copyright (c) 2026 Mimiclaw contributors
 
 package config
 
-// DefaultConfig returns the default configuration for PicoClaw.
+// DefaultConfig returns the default configuration for Mimiclaw.
 func DefaultConfig() *Config {
 	return &Config{
 		Agents: AgentsConfig{
 			Defaults: AgentDefaults{
-				Workspace:           "~/.picoclaw/workspace",
+				Workspace:           "~/.mimiclaw/workspace",
 				RestrictToWorkspace: true,
 				Provider:            "",
 				Model:               "glm-4.7",

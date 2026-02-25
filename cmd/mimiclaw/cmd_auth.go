@@ -1,4 +1,4 @@
-// PicoClaw - Ultra-lightweight personal AI agent
+// Mimiclaw - Ultra-lightweight personal AI agent
 // License: MIT
 
 package main
@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sipeed/picoclaw/pkg/auth"
-	"github.com/sipeed/picoclaw/pkg/config"
-	"github.com/sipeed/picoclaw/pkg/providers"
+	"github.com/sipeed/mimiclaw/pkg/auth"
+	"github.com/sipeed/mimiclaw/pkg/config"
+	"github.com/sipeed/mimiclaw/pkg/providers"
 )
 
 const supportedProvidersMsg = "Supported providers: openai, anthropic, google-antigravity"
@@ -52,13 +52,13 @@ func authHelp() {
 	fmt.Println("  --device-code        Use device code flow (for headless environments)")
 	fmt.Println()
 	fmt.Println("Examples:")
-	fmt.Println("  picoclaw auth login --provider openai")
-	fmt.Println("  picoclaw auth login --provider openai --device-code")
-	fmt.Println("  picoclaw auth login --provider anthropic")
-	fmt.Println("  picoclaw auth login --provider google-antigravity")
-	fmt.Println("  picoclaw auth models")
-	fmt.Println("  picoclaw auth logout --provider openai")
-	fmt.Println("  picoclaw auth status")
+	fmt.Println("  mimiclaw auth login --provider openai")
+	fmt.Println("  mimiclaw auth login --provider openai --device-code")
+	fmt.Println("  mimiclaw auth login --provider anthropic")
+	fmt.Println("  mimiclaw auth login --provider google-antigravity")
+	fmt.Println("  mimiclaw auth models")
+	fmt.Println("  mimiclaw auth logout --provider openai")
+	fmt.Println("  mimiclaw auth status")
 }
 
 func authLoginCmd() {
@@ -227,7 +227,7 @@ func authLoginGoogleAntigravity() {
 
 	fmt.Println("\n✓ Google Antigravity login successful!")
 	fmt.Println("Default model set to: gemini-flash")
-	fmt.Println("Try it: picoclaw agent -m \"Hello world\"")
+	fmt.Println("Try it: mimiclaw agent -m \"Hello world\"")
 }
 
 func fetchGoogleUserEmail(accessToken string) (string, error) {
@@ -407,7 +407,7 @@ func authStatusCmd() {
 
 	if len(store.Credentials) == 0 {
 		fmt.Println("No authenticated providers.")
-		fmt.Println("Run: picoclaw auth login --provider <name>")
+		fmt.Println("Run: mimiclaw auth login --provider <name>")
 		return
 	}
 
@@ -443,7 +443,7 @@ func authModelsCmd() {
 	cred, err := auth.GetCredential("google-antigravity")
 	if err != nil || cred == nil {
 		fmt.Println("Not logged in to Google Antigravity.")
-		fmt.Println("Run: picoclaw auth login --provider google-antigravity")
+		fmt.Println("Run: mimiclaw auth login --provider google-antigravity")
 		return
 	}
 

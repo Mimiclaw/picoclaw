@@ -1,8 +1,8 @@
-// PicoClaw - Ultra-lightweight personal AI agent
+// Mimiclaw - Ultra-lightweight personal AI agent
 // Inspired by and based on nanobot: https://github.com/HKUDS/nanobot
 // License: MIT
 //
-// Copyright (c) 2026 PicoClaw contributors
+// Copyright (c) 2026 Mimiclaw contributors
 
 package channels
 
@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/sipeed/picoclaw/pkg/bus"
-	"github.com/sipeed/picoclaw/pkg/config"
-	"github.com/sipeed/picoclaw/pkg/constants"
-	"github.com/sipeed/picoclaw/pkg/logger"
+	"github.com/sipeed/mimiclaw/pkg/bus"
+	"github.com/sipeed/mimiclaw/pkg/config"
+	"github.com/sipeed/mimiclaw/pkg/constants"
+	"github.com/sipeed/mimiclaw/pkg/logger"
 )
 
 type Manager struct {
