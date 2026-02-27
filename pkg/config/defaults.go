@@ -89,6 +89,18 @@ func DefaultConfig() *Config {
 				GroupTriggerPrefix: []string{},
 				AllowFrom:          FlexibleStringSlice{},
 			},
+			WorkerWS: WorkerWSConfig{
+				Enabled:           false,
+				Address:           "ws://127.0.0.1:3001/ws",
+				Role:              "employee",
+				Name:              "Mimiclaw-Worker",
+				Tags:              []string{"general"},
+				AuthKey:           "",
+				IdentityFile:      "~/.mimiclaw/worker_ws_identity.json",
+				ReconnectInterval: 5,
+				PingInterval:      15,
+				AllowFrom:         FlexibleStringSlice{},
+			},
 			WeCom: WeComConfig{
 				Enabled:        false,
 				Token:          "",

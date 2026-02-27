@@ -282,6 +282,9 @@ func TestDefaultConfig_Channels(t *testing.T) {
 	if cfg.Channels.Slack.Enabled {
 		t.Error("Slack should be disabled by default")
 	}
+	if cfg.Channels.WorkerWS.Enabled {
+		t.Error("WorkerWS should be disabled by default")
+	}
 }
 
 // TestDefaultConfig_WebTools verifies web tools config
@@ -411,5 +414,55 @@ func TestLoadConfig_WebToolsProxy(t *testing.T) {
 	}
 	if cfg.Tools.Web.Proxy != "http://127.0.0.1:7890" {
 		t.Fatalf("Tools.Web.Proxy = %q, want %q", cfg.Tools.Web.Proxy, "http://127.0.0.1:7890")
+	}
+}
+
+func TestLoadConfig_WorkerWS(t *testing.T) {
+	tmpDir := t.TempDir()
+	configPath := filepath.Join(tmpDir, "config.json")
+	configJSON := `{
+  "channels": {
+    "worker_ws": {
+      "enabled": true,
+      "address": "ws://127.0.0.1:3001/ws",
+      "role": "employee",
+      "name": "Researcher-1",
+      "tags": ["research", "risk"],
+      "authkey": "",
+      "identity_file": "~/.mimiclaw/worker_ws_identity.json",
+      "reconnect_interval": 5,
+      "ping_interval": 15,
+      "allow_from": ["boss-1"]
+    }
+  }
+}`
+
+	if err := os.WriteFile(configPath, []byte(configJSON), 0o600); err != nil {
+		t.Fatalf("os.WriteFile() error: %v", err)
+	}
+
+	cfg, err := LoadConfig(configPath)
+	if err != nil {
+		t.Fatalf("LoadConfig() error: %v", err)
+	}
+
+	ws := cfg.Channels.WorkerWS
+	if !ws.Enabled {
+		t.Fatal("WorkerWS should be enabled from config")
+	}
+	if ws.Address != "ws://127.0.0.1:3001/ws" {
+		t.Fatalf("WorkerWS.Address = %q", ws.Address)
+	}
+	if ws.Role != "employee" {
+		t.Fatalf("WorkerWS.Role = %q", ws.Role)
+	}
+	if ws.Name != "Researcher-1" {
+		t.Fatalf("WorkerWS.Name = %q", ws.Name)
+	}
+	if len(ws.Tags) != 2 || ws.Tags[0] != "research" || ws.Tags[1] != "risk" {
+		t.Fatalf("WorkerWS.Tags = %#v", ws.Tags)
+	}
+	if len(ws.AllowFrom) != 1 || ws.AllowFrom[0] != "boss-1" {
+		t.Fatalf("WorkerWS.AllowFrom = %#v", ws.AllowFrom)
 	}
 }

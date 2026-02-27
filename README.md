@@ -369,6 +369,36 @@ AI company
 
 ---
 
+## Worker WebSocket Configuration
+
+Mimiclaw supports a dedicated worker WebSocket channel defined by
+[`worker_ws.md`](./worker_ws.md).
+
+Configure it in `config.json`:
+
+```json
+{
+  "channels": {
+    "worker_ws": {
+      "enabled": true,
+      "address": "ws://127.0.0.1:3001/ws",
+      "role": "employee",
+      "name": "Researcher-1",
+      "tags": ["research", "risk"],
+      "authkey": "",
+      "identity_file": "~/.mimiclaw/worker_ws_identity.json",
+      "reconnect_interval": 5,
+      "ping_interval": 15,
+      "allow_from": []
+    }
+  }
+}
+```
+
+`address`, `role`, `name`, and `tags` are configurable from `config.json`.
+
+---
+
 ## Status
 
 Design complete.

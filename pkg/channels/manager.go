@@ -175,6 +175,19 @@ func (m *Manager) initChannels() error {
 		}
 	}
 
+	if m.config.Channels.WorkerWS.Enabled && m.config.Channels.WorkerWS.Address != "" {
+		logger.DebugC("channels", "Attempting to initialize WorkerWS channel")
+		workerWS, err := NewWorkerWSChannel(m.config.Channels.WorkerWS, m.bus)
+		if err != nil {
+			logger.ErrorCF("channels", "Failed to initialize WorkerWS channel", map[string]any{
+				"error": err.Error(),
+			})
+		} else {
+			m.channels["worker_ws"] = workerWS
+			logger.InfoC("channels", "WorkerWS channel enabled successfully")
+		}
+	}
+
 	if m.config.Channels.WeCom.Enabled && m.config.Channels.WeCom.Token != "" {
 		logger.DebugC("channels", "Attempting to initialize WeCom channel")
 		wecom, err := NewWeComBotChannel(m.config.Channels.WeCom, m.bus)

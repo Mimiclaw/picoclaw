@@ -200,6 +200,7 @@ type ChannelsConfig struct {
 	Slack    SlackConfig    `json:"slack"`
 	LINE     LINEConfig     `json:"line"`
 	OneBot   OneBotConfig   `json:"onebot"`
+	WorkerWS WorkerWSConfig `json:"worker_ws"`
 	WeCom    WeComConfig    `json:"wecom"`
 	WeComApp WeComAppConfig `json:"wecom_app"`
 }
@@ -278,6 +279,19 @@ type OneBotConfig struct {
 	ReconnectInterval  int                 `json:"reconnect_interval"   env:"MIMICLAW_CHANNELS_ONEBOT_RECONNECT_INTERVAL"`
 	GroupTriggerPrefix []string            `json:"group_trigger_prefix" env:"MIMICLAW_CHANNELS_ONEBOT_GROUP_TRIGGER_PREFIX"`
 	AllowFrom          FlexibleStringSlice `json:"allow_from"           env:"MIMICLAW_CHANNELS_ONEBOT_ALLOW_FROM"`
+}
+
+type WorkerWSConfig struct {
+	Enabled           bool                `json:"enabled"            env:"MIMICLAW_CHANNELS_WORKER_WS_ENABLED"`
+	Address           string              `json:"address"            env:"MIMICLAW_CHANNELS_WORKER_WS_ADDRESS"`
+	Role              string              `json:"role"               env:"MIMICLAW_CHANNELS_WORKER_WS_ROLE"`
+	Name              string              `json:"name"               env:"MIMICLAW_CHANNELS_WORKER_WS_NAME"`
+	Tags              []string            `json:"tags"               env:"MIMICLAW_CHANNELS_WORKER_WS_TAGS"`
+	AuthKey           string              `json:"authkey,omitempty"  env:"MIMICLAW_CHANNELS_WORKER_WS_AUTHKEY"`
+	IdentityFile      string              `json:"identity_file"      env:"MIMICLAW_CHANNELS_WORKER_WS_IDENTITY_FILE"`
+	ReconnectInterval int                 `json:"reconnect_interval" env:"MIMICLAW_CHANNELS_WORKER_WS_RECONNECT_INTERVAL"`
+	PingInterval      int                 `json:"ping_interval"      env:"MIMICLAW_CHANNELS_WORKER_WS_PING_INTERVAL"`
+	AllowFrom         FlexibleStringSlice `json:"allow_from"         env:"MIMICLAW_CHANNELS_WORKER_WS_ALLOW_FROM"`
 }
 
 type WeComConfig struct {

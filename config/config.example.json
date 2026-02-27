@@ -114,6 +114,22 @@
       "group_trigger_prefix": [],
       "allow_from": []
     },
+    "worker_ws": {
+      "_comment": "Worker WebSocket protocol (see ./worker_ws.md)",
+      "enabled": false,
+      "address": "ws://127.0.0.1:3001/ws",
+      "role": "employee",
+      "name": "Researcher-1",
+      "tags": [
+        "research",
+        "risk"
+      ],
+      "authkey": "",
+      "identity_file": "~/.mimiclaw/worker_ws_identity.json",
+      "reconnect_interval": 5,
+      "ping_interval": 15,
+      "allow_from": []
+    },
     "wecom": {
       "_comment": "WeCom Bot (智能机器人) - Easier setup, supports group chats",
       "enabled": false,
